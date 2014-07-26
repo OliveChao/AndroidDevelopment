@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Style of button when pressed -->
+    <item android:state_pressed="true">
+        <shape>
+           <solid 
+               android:color="@color/orange"/> 
+           <stroke 
+               android:width="1dp"
+               android:color="@color/black"/>
+           <corners 
+               android:radius="5dp"/>
+           <padding 
+               android:left="10dp"
+               android:top="10dp"
+               android:right="10dp"
+               android:bottom="10dp"/>
+        </shape>
+    </item>
+    
+    <!-- Default style for a Button -->
+    <item>
+        <shape>
+            <gradient 
+                android:startColor="@color/orange"
+                android:endColor="@color/black"
+                android:angle="270"/>
+            <stroke 
+                android:width="1dp"
+                android:color="@color/orange"/>
+            <corners 
+                android:radius="3dp"/>
+            <padding 
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp"/>
+        </shape>
+    </item>
+
+</selector>

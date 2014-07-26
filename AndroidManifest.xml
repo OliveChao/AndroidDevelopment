@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projecttwo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.projecttwo.ListPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.AddPage"
+            android:label="@string/title_activity_add_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.SubtractPage"
+            android:label="@string/title_activity_subtract_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.CounterPage"
+            android:label="@string/title_activity_counter_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.NotificationPage"
+            android:label="@string/title_activity_notification_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.SpinnerPage"
+            android:label="@string/title_activity_spinner_page" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.TabsActivity"
+            android:label="@string/title_activity_tabs" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.HomeActivity"
+            android:label="@string/title_activity_home_actitivity" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.projecttwo.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

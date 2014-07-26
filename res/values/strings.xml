@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjectTwo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="num_one">Num One</string>
+    <string name="num_two">Num Two</string>
+    <string name="result">Result</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_subtract">Subtract</string>
+    <string name="btn_back">Back</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="checkbox">Show Password</string>
+    <string name="btn_toast">Toast</string>
+    <string name="enter_no">Enter Number</string>
+    <string name="btn_increament">Increament</string>
+    <string name="btn_decreament">Decreament</string>
+    <string name="btn_notification">Notification</string>
+    <string name="text">Text</string>
+    <string name="btn_display">Display</string>
+    <string name="title_activity_add_page">AddPage</string>
+    <string name="title_activity_subtract_page">SubtractPage</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_counter_page">CounterPage</string>
+    <string name="title_activity_notification_page">NotificationPage</string>
+    <string name="title_activity_spinner_page">SpinnerPage</string>
+    <string name="country_picker">Pick a Country</string>
+
+    <string-array name="country_entries">
+        <item>Kenya</item>
+        <item>Tanzania</item>
+        <item>Rwanda</item>
+        <item>Burundi</item>
+        <item>Somalia</item>
+        <item>Ethopia</item>
+        <item>Sudan</item>
+        <item>Uganda</item>
+    </string-array>
+
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_activity_home_actitivity">HomeActitivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="person_data">Princess Chao</string>
+    <string name="phone_number">0702280123</string>
+    <string name="content_description">Image</string>
+    <string name="incoming_call">Incoming Call</string>
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/olive"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:text="@string/person_data" 
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvUserName"
+        android:gravity="center_horizontal"
+        android:text="@string/phone_number"
+        android:textSize="25sp" 
+        android:textStyle="bold"
+        android:textColor="@color/grey"/>
+
+    <ImageButton
+        android:id="@+id/ibAnswerCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ibEndCall"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ibEndCall"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/red_phone" />
+
+    <ImageButton
+        android:id="@+id/ibEndCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvPhoneNumber"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="28dp"
+        android:background="@null"
+        android:contentDescription="@string/content_description"
+        android:maxWidth="20sp"
+        android:maxHeight="20sp"
+        android:src="@drawable/phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/incoming_call"
+        android:textColor="@color/grey"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
