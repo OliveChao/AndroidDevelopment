@@ -15,7 +15,7 @@ public class ListPage extends ActionBarActivity implements OnItemClickListener {
 	
 	private ListView listView;
 	private ArrayAdapter<String> stringArrayAdapter;
-	String []items = {"Addition","Subtraction","Login Form","Increament and Decreament","Button Toast","Countries","Tab Activity"};
+	String []items = {"Addition","Subtraction","Login Form","Increament and Decreament","Button Toast","Countries","Tab Activity","Web View"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +64,10 @@ public void onItemClick(AdapterView<?> parent, View view, int position,
        
      case 6:
          startActivity(new Intent(getApplicationContext(),TabsActivity.class));
+        break;
+        
+     case 7:
+         startActivity(new Intent(getApplicationContext(),WebViewActivity.class));
         break;
 
     default:

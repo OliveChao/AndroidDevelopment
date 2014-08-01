@@ -47,5 +47,19 @@
     <string name="phone_number">0702280123</string>
     <string name="content_description">Image</string>
     <string name="incoming_call">Incoming Call</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="login">Login</string>
+    <string name="next">Continue</string>
+    <string name="register">Register</string>
+    <string name="email_address">Email-Address</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_page_one">PageOneActivity</string>
+    <string name="title_activity_register_page">RegisterPage</string>
+    <string name="title_activity_get_password_page">GetPasswordPage</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="terms">I agree to the Terms of Use</string>
+    <string name="sign_up">Sign Me Up</string>
 
 </resources>
