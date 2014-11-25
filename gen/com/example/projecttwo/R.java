@@ -861,11 +861,12 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070008;
+        public static final int abc_search_url_text_holo=0x7f070009;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
         public static final int black=0x7f070004;
+        public static final int golden=0x7f070008;
         public static final int golden_rod=0x7f070005;
         public static final int grey=0x7f070007;
         public static final int lime=0x7f070006;
@@ -1110,7 +1111,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050071;
+        public static final int action_settings=0x7f050072;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1124,8 +1125,8 @@ containing a value of this type.
         public static final int btnPageOneContinue=0x7f05005a;
         public static final int btnRegisterSignUp=0x7f050065;
         public static final int btnSpinnerDisplay=0x7f050068;
-        public static final int btnSubtract=0x7f05006e;
-        public static final int btnSubtractBack=0x7f05006f;
+        public static final int btnSubtract=0x7f05006f;
+        public static final int btnSubtractBack=0x7f050070;
         public static final int checkbox=0x7f05002d;
         public static final int chkRegisterTerms=0x7f050064;
         public static final int collapseActionView=0x7f05000d;
@@ -1141,16 +1142,16 @@ containing a value of this type.
         public static final int etCounterEnterNo=0x7f05004a;
         public static final int etLoginPassword=0x7f050052;
         public static final int etLoginUserName=0x7f050050;
-        public static final int etPageOneEmail=0x7f050059;
-        public static final int etPageOnePassword=0x7f050058;
+        public static final int etPageOneEmail=0x7f05005c;
+        public static final int etPageOnePassword=0x7f05005b;
         public static final int etRegisterConfirmPassword=0x7f05005d;
         public static final int etRegisterEmail=0x7f050063;
         public static final int etRegisterFirstName=0x7f050060;
         public static final int etRegisterLastName=0x7f050061;
         public static final int etRegisterPassword=0x7f05005e;
         public static final int etRegisterUserName=0x7f050062;
-        public static final int etSubtractNumOne=0x7f05006a;
-        public static final int etSubtractNumTwo=0x7f05006c;
+        public static final int etSubtractNumOne=0x7f05006b;
+        public static final int etSubtractNumTwo=0x7f05006d;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int home=0x7f050014;
@@ -1160,6 +1161,7 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int imageView1=0x7f050069;
         public static final int ivProfile=0x7f050044;
         public static final int listMode=0x7f050001;
         public static final int listView1=0x7f05004e;
@@ -1199,18 +1201,18 @@ containing a value of this type.
         public static final int tvCounterResult=0x7f05004b;
         public static final int tvLoginPassword=0x7f050051;
         public static final int tvLoginUserName=0x7f05004f;
-        public static final int tvPageOneForgotPassword=0x7f05005c;
-        public static final int tvPageOneRegister=0x7f05005b;
+        public static final int tvPageOneForgotPassword=0x7f050059;
+        public static final int tvPageOneRegister=0x7f050058;
         public static final int tvPhoneNumber=0x7f050046;
         public static final int tvRegisterTerms=0x7f05005f;
         public static final int tvSpinnerText=0x7f050067;
-        public static final int tvSubtractNumOne=0x7f050069;
-        public static final int tvSubtractNumTwo=0x7f05006b;
-        public static final int tvSubtractResult=0x7f05006d;
+        public static final int tvSubtractNumOne=0x7f05006a;
+        public static final int tvSubtractNumTwo=0x7f05006c;
+        public static final int tvSubtractResult=0x7f05006e;
         public static final int tvUserName=0x7f050045;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
-        public static final int webView1=0x7f050070;
+        public static final int webView1=0x7f050071;
         public static final int withText=0x7f05000c;
     }
     public static final class integer {
@@ -1269,23 +1271,26 @@ containing a value of this type.
         public static final int activity_home_actitivity=0x7f03001b;
         public static final int activity_page_one=0x7f03001c;
         public static final int activity_register_page=0x7f03001d;
-        public static final int activity_web_view=0x7f03001e;
-        public static final int add_page=0x7f03001f;
-        public static final int call_screen=0x7f030020;
-        public static final int counter_page=0x7f030021;
-        public static final int getpassword_page=0x7f030022;
-        public static final int list_outlook=0x7f030023;
-        public static final int list_page=0x7f030024;
-        public static final int login_page=0x7f030025;
-        public static final int notification_page=0x7f030026;
-        public static final int page_one=0x7f030027;
-        public static final int register_page=0x7f030028;
-        public static final int spinner_page=0x7f030029;
-        public static final int subtract_page=0x7f03002a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002b;
-        public static final int tabs=0x7f03002c;
-        public static final int tabs_page=0x7f03002d;
-        public static final int webview_page=0x7f03002e;
+        public static final int activity_splash_screen=0x7f03001e;
+        public static final int activity_web_view=0x7f03001f;
+        public static final int add_page=0x7f030020;
+        public static final int call_screen=0x7f030021;
+        public static final int counter_page=0x7f030022;
+        public static final int fragment_splash_screen=0x7f030023;
+        public static final int getpassword_page=0x7f030024;
+        public static final int list_outlook=0x7f030025;
+        public static final int list_page=0x7f030026;
+        public static final int login_page=0x7f030027;
+        public static final int notification_page=0x7f030028;
+        public static final int page_one=0x7f030029;
+        public static final int register_page=0x7f03002a;
+        public static final int spinner_page=0x7f03002b;
+        public static final int splash_screen=0x7f03002c;
+        public static final int subtract_page=0x7f03002d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03002e;
+        public static final int tabs=0x7f03002f;
+        public static final int tabs_page=0x7f030030;
+        public static final int webview_page=0x7f030031;
     }
     public static final class menu {
         public static final int about=0x7f0d0000;
@@ -1300,9 +1305,10 @@ containing a value of this type.
         public static final int page_one=0x7f0d0009;
         public static final int register_page=0x7f0d000a;
         public static final int spinner_page=0x7f0d000b;
-        public static final int subtract_page=0x7f0d000c;
-        public static final int tabs=0x7f0d000d;
-        public static final int web_view=0x7f0d000e;
+        public static final int splash_screen=0x7f0d000c;
+        public static final int subtract_page=0x7f0d000d;
+        public static final int tabs=0x7f0d000e;
+        public static final int web_view=0x7f0d000f;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1389,6 +1395,7 @@ containing a value of this type.
         public static final int title_activity_page_one=0x7f0a0035;
         public static final int title_activity_register_page=0x7f0a0036;
         public static final int title_activity_spinner_page=0x7f0a0025;
+        public static final int title_activity_splash_screen=0x7f0a003d;
         public static final int title_activity_subtract_page=0x7f0a0021;
         public static final int title_activity_tabs=0x7f0a0027;
         public static final int title_activity_web_view=0x7f0a002f;
@@ -2771,7 +2778,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x0101040c
+            0x0101012f, 0x01010130, 0x01010131, 0x01010438
         };
         /**
           <p>

@@ -61,5 +61,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="terms">I agree to the Terms of Use</string>
     <string name="sign_up">Sign Me Up</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
 
 </resources>

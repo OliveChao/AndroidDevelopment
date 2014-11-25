@@ -81,6 +81,10 @@
             android:name="com.example.projecttwo.GetPasswordPage"
             android:label="@string/title_activity_get_password_page" >
         </activity>
+        <activity
+            android:name="com.example.projecttwo.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
     </application>
 
 </manifest>

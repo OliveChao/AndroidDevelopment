@@ -18,47 +18,6 @@
         android:textColor="@color/orange"
         android:textSize="35sp"
         android:textStyle="bold" />
-    
-    <EditText
-        android:id="@+id/etPageOneEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/etPageOnePassword"
-        android:layout_marginTop="23dp"
-        android:ems="10"
-        android:hint="@string/password"
-        android:inputType="textEmailAddress"
-        android:textSize="14sp" />
-
-    <EditText
-        android:id="@+id/etPageOnePassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="52dp"
-        android:ems="10"
-        android:hint="@string/email_address"
-        android:inputType="textPassword"
-        android:textSize="14sp" >
-
-        <requestFocus />
-    </EditText>
-
-    
-
-    <Button
-        android:id="@+id/btnPageOneContinue"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/etPageOneEmail"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/buttons_style"
-        android:text="@string/next"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvPageOneRegister"
@@ -82,6 +41,45 @@
         android:layout_marginTop="34dp"
         android:text="@string/forgot_password"
         android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPageOnePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPageOneEmail"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/etPageOneEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPageOneContinue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPageOnePassword"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons_style"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
         android:textStyle="bold" />
 
 </RelativeLayout>

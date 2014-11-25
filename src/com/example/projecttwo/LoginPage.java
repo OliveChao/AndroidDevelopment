@@ -1,5 +1,7 @@
 package com.example.projecttwo;
 
+import com.example.projecttwo.utilities.Constants;
+
 import android.support.v7.app.ActionBarActivity;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
@@ -12,6 +14,7 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 public class LoginPage extends ActionBarActivity implements OnClickListener {
@@ -20,9 +23,10 @@ public class LoginPage extends ActionBarActivity implements OnClickListener {
 	        String strUserName, strPassword;
 			EditText etUserName, etPassword, etDetails;
 		    CheckBox chkOlive;
-			Button btnToast, btnBack;
-
-
+			Button btnToast, btnBack;       
+			
+			Constants myConstants;
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -59,6 +63,9 @@ public class LoginPage extends ActionBarActivity implements OnClickListener {
 		
 		btnToast.setOnClickListener(this);
 		btnBack.setOnClickListener(this);
+		
+		//Instantiation
+		myConstants = new Constants();
 
 	}
 
@@ -69,9 +76,20 @@ public class LoginPage extends ActionBarActivity implements OnClickListener {
 		// Switch case statement
 		switch (v.getId()) {
 		case R.id.btnLoginToast:
-			strUserName = "Olive Mwasaru";
-			strPassword = "twins";
 			
+			//This is what we call hard coding
+			//created temporary storage for our data
+			//strUserName = "Olive Chao";
+			//strPassword = "twins";
+			
+			//access the shared preferences
+			SharedPreferences sharedPreferences = getSharedPreferences(myConstants.PREFS_NAME, 0);
+			
+			//get data from the shared preferences using the key
+			String spUserName = sharedPreferences.getString(myConstants.UserName, null);
+			String spPassword = sharedPreferences.getString(myConstants.Password, null);
+			
+			//check if user name and password are empty
 			if (etUserName.getText().toString().equals("")&& etPassword.getText().toString().equals("")) {
 				Toast.makeText(getApplicationContext(), "input user name and password", Toast.LENGTH_LONG).show();	
 			}
@@ -81,13 +99,15 @@ public class LoginPage extends ActionBarActivity implements OnClickListener {
 			else if (etPassword.getText().toString().equals("")) {
 				Toast.makeText(getApplicationContext(), "input password", Toast.LENGTH_LONG).show();	
 			}
-			else if (!etUserName.getText().toString().equals("strUserName")) {
+			
+			//validation
+			else if (!etUserName.getText().toString().equals("spUserName")) {
 				Toast.makeText(getApplicationContext(), "user name incorrect", Toast.LENGTH_LONG).show();	
 			}
-			else if (!etPassword.getText().toString().equals("strPassword")) {
+			else if (!etPassword.getText().toString().equals("spPassword")) {
 				Toast.makeText(getApplicationContext(), "password incorrect", Toast.LENGTH_LONG).show();	
 			}
-			else if (etUserName.getText().toString().equals("")&& etPassword.getText().toString().equals("")) {
+			else if (etUserName.getText().toString().equals(spUserName)&& etPassword.getText().toString().equals(spPassword)) {
 				Toast.makeText(getApplicationContext(), "hurray welcome", Toast.LENGTH_LONG).show();	
 			}
 			break;
